@@ -28,8 +28,8 @@ server.lua
 <br>
 Find:
 <br>
-**if xPlayer.job.name == 'police' or  xPlayer.job.name == 'fire' then**
-on lines 19, 32, 70, 108, and 131.
+**if xPlayer.job.name == 'police' or  xPlayer.job.name == 'fire' then**<br>
+on lines 19, 32, 70, 108, and 131.<br>
 Change **'fire'** to your EMT job name.
 
 ## Usage
@@ -40,7 +40,7 @@ Change **'fire'** to your EMT job name.
 
 **NOTE**
 
-It is very important you do your time in **MINUTES** and not seconds.  If you put in 120 for the time, you will jail them for 120 minutes when you intended to only put them in jail for 2 minutes.<br>
+It is very important you do your time in **MINUTES** and not seconds.  If you put in 120 for the time, you will hospitalize them for 120 minutes when you intended to only put them in the hospital for 2 minutes.<br>
 
 **/NOTE**
 
