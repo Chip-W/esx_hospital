@@ -11,9 +11,9 @@ The original script was created by Albo1125.  Then edited to be database driven 
 ## Required Dependencies
 >[pNotify](https://forum.fivem.net/t/release-pnotify-in-game-js-notifications-using-noty/20659)
 <br>
-MySQL Database
+>[MySQL Async](https://forum.fivem.net/t/release-mysql-async-library-v3-0-0-fxserver/21881)
 <br>
-[MySQL Async](https://forum.fivem.net/t/release-mysql-async-library-v3-0-0-fxserver/21881)
+>MySQL Database
 
 ## Installation
 
