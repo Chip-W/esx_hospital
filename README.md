@@ -32,9 +32,9 @@ Change **'fire'** to your EMT job name.
 
 ## Usage
 
-- bed1 <PlayerID> <Time in minutes>
-- bed2 <PlayerID> <Time in minutes>
-- bed3 <PlayerID> <Time in minutes>
+- bed1 PlayerID Minutes
+- bed2 PlayerID Minutes
+- bed3 PlayerID Minutes
 
 **NOTE**
 
@@ -46,7 +46,7 @@ It is very important you do your time in **MINUTES** and not seconds.  If you pu
 
 For those not using ESX or VRP, to charge your player for the hospital bill:<br>
 
-/hbill <PlayerID> <Amount>
+/hbill PlayerID Amount
 
 
 ## Known Issue
