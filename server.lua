@@ -45,7 +45,7 @@ AddEventHandler('chatMessage', function(source, n, message)
 					local identifier = GetPlayerIdentifiers(tPID)[1]
 					local name = GetPlayerName(source)
 					local id = GetPlayerIdentifiers(source)[1]
-					MySQL.Async.execute("INSERT INTO hospital (identifier,H_Time,H_Bed,Medic,Medic_ID, reason) VALUES (@Identifier,@H_Time,@H_Bed,@MEDIC,@MID, @Reason)",
+					MySQL.Async.execute("INSERT INTO hospital (identifier,H_Time,H_Bed,Medic,Medic_ID, reason) VALUES (@identifier,@H_Time,@H_Bed,@MEDIC,@MID, @reason)",
 						{['@identifier'] = identifier,
 						['@H_Time'] = hT,
 						['@H_Bed'] = "HB1",
@@ -83,7 +83,7 @@ AddEventHandler('chatMessage', function(source, n, message)
 					local identifier = GetPlayerIdentifiers(tPID)[1]
 					local name = GetPlayerName(source)
 					local id = GetPlayerIdentifiers(source)[1]
-					MySQL.Async.execute("INSERT INTO hospital (identifier,H_Time,H_Bed,Medic,Medic_ID, reason) VALUES (@Identifier,@H_Time,@H_Bed,@MEDIC,@MID, @Reason)",
+					MySQL.Async.execute("INSERT INTO hospital (identifier,H_Time,H_Bed,Medic,Medic_ID, reason) VALUES (@identifier,@H_Time,@H_Bed,@MEDIC,@MID, @reason)",
 						{['@identifier'] = identifier,
 						['@H_Time'] = hT,
 						['@H_Bed'] = "HB2",
@@ -144,7 +144,7 @@ AddEventHandler('chatMessage', function(source, n, message)
 					local identifier = GetPlayerIdentifiers(tPID)[1]
 					local name = GetPlayerName(source)
 					local id = GetPlayerIdentifiers(source)[1]
-					MySQL.Async.execute("INSERT INTO hospital (identifier,H_Time,H_Bed,Medic,Medic_ID, reason) VALUES (@Identifier,@H_Time,@H_Bed,@MEDIC,@MID, @Reason)",
+					MySQL.Async.execute("INSERT INTO hospital (identifier,H_Time,H_Bed,Medic,Medic_ID, reason) VALUES (@identifier,@H_Time,@H_Bed,@MEDIC,@MID, @reason)",
 						{['@identifier'] = identifier,
 						['@H_Time'] = hT,
 						['@H_Bed'] = "HB3",
